@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -38,6 +39,11 @@ int main()
     cout << "Ingrese un numero";
     cin >> var8;
     cout << "El valor es: " << var8 << endl;
+
+    double potencia = pow(5, 5);
+    double raiz = sqrt(100.0);
+    double seno = sin(0.5);
+    double coseno = cos(1);
 
     return 0;
 }
