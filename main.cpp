@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 
+#define PI 3.14
+
 using namespace std;
 
 int main()
@@ -44,6 +46,10 @@ int main()
     double raiz = sqrt(100.0);
     double seno = sin(0.5);
     double coseno = cos(1);
+
+    const double PI2 = 3.1419;
+    cout << PI << endl;
+    cout << PI2 <<endl;
 
     return 0;
 }
