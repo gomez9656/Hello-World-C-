@@ -14,6 +14,7 @@ int main()
     bool var5;
     double var6 = 5.3e3;
     double var7 = 7.7e-6;
+    unsigned int var8 = 3;
 
 
     _var1 = 2;
@@ -33,6 +34,10 @@ int main()
     cout << letra << endl;
 
     cout << sizeof(int) << endl;
+
+    cout << "Ingrese un numero";
+    cin >> var8;
+    cout << "El valor es: " << var8 << endl;
 
     return 0;
 }
