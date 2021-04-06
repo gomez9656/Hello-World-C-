@@ -32,5 +32,7 @@ int main()
     cout << var7 << endl;
     cout << letra << endl;
 
+    cout << sizeof(int) << endl;
+
     return 0;
 }
